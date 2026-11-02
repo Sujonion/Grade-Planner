@@ -1,0 +1,30 @@
+Important and Urgent, Do (your MVP)
+
+Add a course with named grading categories and their weights, with a check that the weights add up to 100 percent
+Enter scores for completed assignments inside each category
+Calculate the current grade for every course using a weighted average of the completed work
+Target grade calculator that tells you what average you need on the remaining work to hit a chosen grade
+Rank upcoming assignments by how much each one can move your final grade
+Save and load courses from a local text file so you do not retype everything each run
+
+Important but Not Urgent, Schedule (V2.0+)
+
+Due dates for each assignment, with the ranking combining impact and how soon it is due
+Support for syllabus rules like “drop the lowest quiz” or extra credit
+What-if mode that lets you test a hypothetical score and see the new grade
+Weekly workload summary that suggests where to spend study time
+Custom letter grade scales and a semester GPA estimate
+
+Urgent but Not Important, Delegate (use a library)
+
+Reading and writing the save file in JSON using a library like Gson instead of hand-rolled parsing
+Handling dates with Java’s built-in java.time package
+Parsing command line commands and flags with a library like picocli
+Printing clean tables in the terminal with a small text table library
+
+Not Important and Not Urgent, Delete (cut it)
+
+A GUI/web app
+Automatic import of grades from Brightspace or Gradescope, which would need logins and unofficial APIs
+Reading syllabus PDFs automatically to fill in the weights
+User accounts, cloud sync, or sharing grades with friends
